@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Phan Trọng Hiển – Trang chủ</title>
+    <title>Phan Trọng Hiển – Liên hệ</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -16,26 +16,36 @@
       <a href="index.html">Trang chủ</a>
       <a href="about.html">Giới thiệu</a>
       <a href="contact.html">Liên hệ</a>
-      <a href="https://github.com/PhnHin/my-website" target="_blank" rel="noopener">GitHub</a>
     </nav>
 
     <main>
-      <section id="about">
-        <h2>Thông Tin Cá Nhân</h2>
-        <p>Họ tên: <strong>Phan Trọng Hiển</strong></p>
-        <p>Quê quán: Tiền Giang</p>
-        <p>Ngành học: Kỹ thuật phần mềm (CNTT)</p>
-        <p>Năm học: Năm 2</p>
-        <p><a href="https://guns.lol/lulu_mii">Social Media</a></p>
+      <section id="contact">
+        <h2>Liên hệ</h2>
+        <p>Nếu bạn muốn trao đổi hoặc hợp tác, hãy gửi tin nhắn qua biểu mẫu bên dưới.</p>
       </section>
 
-      <section id="goals">
-        <h2>Mục Tiêu Học Kỳ Này</h2>
-        <ol>
-          <li>Giữ vững điểm GPA trên 3.6</li>
-          <li>Hoàn thành nhiều tín chỉ nhất có thể</li>
-          <li>Hoàn thành các môn kỹ năng mềm máy tính</li>
-        </ol>
+      <section>
+        <h2>Thông tin liên hệ</h2>
+        <ul>
+          <li>Email: <a href="mailto:phantronghien11b2@gmail.com">phantronghien11b2@gmail.com</a></li>
+          <li>Địa chỉ: Tiền Giang</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Form liên hệ</h2>
+        <form>
+          <label for="name">Họ tên:</label><br />
+          <input type="text" id="name" name="name" /><br /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" /><br /><br />
+
+          <label for="message">Tin nhắn:</label><br />
+          <textarea id="message" name="message" rows="4" cols="40"></textarea><br /><br />
+
+          <button type="submit">Gửi</button>
+        </form>
       </section>
     </main>
 
