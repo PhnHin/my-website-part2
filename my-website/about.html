@@ -3,26 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Phan Trọng Hiển – Giới thiệu</title>
+    <title>Phan Trọng Hiển | Giới thiệu kỹ năng và lộ trình học tập</title>
+    <meta name="description" content="Tìm hiểu hành trình học tập, kỹ năng HTML, CSS, Git và lộ trình phát triển của Phan Trọng Hiển, sinh viên Kỹ thuật phần mềm." />
+    <meta property="og:title" content="Phan Trọng Hiển | Giới thiệu" />
+    <meta property="og:description" content="Tìm hiểu kỹ năng, môn học và lộ trình phát triển của Phan Trọng Hiển trong lĩnh vực công nghệ thông tin." />
+    <meta property="og:type" content="profile" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
-      <h1>Phan Trọng Hiển</h1>
-      <p>Tôi là sinh viên năm 2 ngành Kỹ thuật phần mềm, đang tìm hiểu và phát triển bản thân qua các môn học cũng như kỹ năng mềm.</p>
+      <div class="navbar">
+        <div class="logo">
+          <h1>Phan Trọng Hiển</h1>
+          <p>Tôi là sinh viên năm 2 ngành Kỹ thuật phần mềm, đang tìm hiểu và phát triển bản thân qua các môn học cũng như kỹ năng mềm.</p>
+        </div>
+
+        <nav class="nav-links">
+          <a href="index.html">Trang chủ</a>
+          <a href="about.html">Giới thiệu</a>
+          <a href="contact.html">Liên hệ</a>
+        </nav>
+      </div>
     </header>
 
-    <nav>
-      <a href="index.html">Trang chủ</a>
-      <a href="about.html">Giới thiệu</a>
-      <a href="contact.html">Liên hệ</a>
-    </nav>
+    <div class="page-layout">
+      <aside class="sidebar">
+        <h3>Liên kết nhanh</h3>
+        <ul>
+          <li><a href="#about">Về tôi</a></li>
+          <li><a href="#skills">Kỹ năng</a></li>
+          <li><a href="#progress">Tiến độ học tập</a></li>
+        </ul>
+      </aside>
 
-    <main>
-      <section id="about">
-        <h2>Về tôi</h2>
+      <main>
+        <section id="about">
+          <h2>Về tôi</h2>
 
-        <figure>
+          <figure>
           <img
             src="img/avatar.jpg"
             alt="Ảnh đại diện của Phan Trọng Hiển, sinh viên năm 2 ngành Kỹ thuật phần mềm"
@@ -146,7 +164,8 @@
           </tfoot>
         </table>
       </section>
-    </main>
+      </main>
+    </div>
 
     <footer>
       <address>
